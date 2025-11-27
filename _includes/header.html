@@ -1,0 +1,15 @@
+<header class="site-header">
+  {% if site.header_image %}
+    <img src="{{ site.header_image }}" class="header-image">
+  {% endif %}
+  {{ site.title | escape }}
+</header>
+
+<style>
+.header-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+</style>
