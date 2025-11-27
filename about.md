@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Geopastore
+title: about
 permalink: /about/
 ---
 
