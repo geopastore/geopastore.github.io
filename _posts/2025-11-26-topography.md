@@ -2,7 +2,6 @@
 layout: post
 title: "Topography Distribution"
 date: 2025-11-26 10:00:00 -0000
-excerpt_separator: <!--more-->
 ---
 
 What geological/topographical feature could we observe if we visualize the distribution of elevation for discrete latitude swaths?<!--more-->
