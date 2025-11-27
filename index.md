@@ -1,7 +1,7 @@
 <!-- Right-side profile box -->
 <div style="
     position: absolute;        /* position it relative to the page */
-    top: 100px;                /* distance from top of page */
+    top: 400px;                /* distance from top of page */
     right: 20px;               /* distance from right edge */
     width: 200px;              /* max width of the box */
     text-align: center;
