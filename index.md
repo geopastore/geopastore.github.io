@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Welcome to geopastore
+layout: page
+title: home
+permalink: /home/
 ---
 
 This is my personal page. I would like to use it to share some ideas.
