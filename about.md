@@ -2,7 +2,6 @@
 layout: page
 title: about
 permalink: /about/
-header_image: /assets/images/95483300-mds2022f-15668.JPG
 ---
 
 
