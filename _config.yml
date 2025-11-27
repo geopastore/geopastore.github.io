@@ -1,5 +1,7 @@
 title: Geopastore
 description: Welcome to my page
 theme: minima
+sass:
+  sass_dir: assets/css
 show_excerpts: true
 excerpt_separator: <!--more-->
