@@ -1,7 +1,6 @@
 ---
 layout: home
 title: 
-header_image: /assets/images/95483300-mds2022f-15668.JPG
 ---
 
 #### This is my personal page. I would like to use it to share some ideas.
