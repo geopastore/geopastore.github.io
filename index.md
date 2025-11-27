@@ -1,18 +1,24 @@
-<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+<!-- Right-side profile box -->
+<div style="
+    position: absolute;        /* position it relative to the page */
+    top: 100px;                /* distance from top of page */
+    right: 20px;               /* distance from right edge */
+    width: 200px;              /* max width of the box */
+    text-align: center;
+    z-index: 1000;             /* ensures it’s on top of other content */
+">
 
-  <div style="text-align: center; max-width: 150px;">
     <img src="/assets/images/95483300-mds2022f-15668.JPG"
          alt="My photo"
-         style="width: 100%; height: auto;">
+         style="width: 100%; height: auto; border-radius: 8px;">
 
     <p style="margin-top: 10px;">
-      This is my personal page. <br>
+      This is my personal page.<br>
       I would like to use it to share some ideas.
     </p>
 
     <p>
       📧 <a href="mailto:guidopastore93@gmail.com">guidopastore93@gmail.com</a>
     </p>
-  </div>
 
 </div>
