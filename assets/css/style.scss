@@ -6,3 +6,11 @@
 body {
   background-color: #DBFFF8;
 }
+
+.site-title::before {
+	content: url("assets/images/Logo.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
+}
