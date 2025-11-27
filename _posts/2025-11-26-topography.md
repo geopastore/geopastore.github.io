@@ -6,11 +6,11 @@ date: 2025-11-26 10:00:00 -0000
 *What geological/topographical feature could we observe if we visualize the distribution of elevation for discrete latitude swaths?*<!--more-->
 
 ### The idea
-One day, wandering around the forest of twitter, I found a nice image of the accoung @Foglebird displaying a visual topography of Western US. He computed the percentiles of elevation dristribution for intervals of 1° of Latidude.  
+One day, wandering around the forest of twitter, I found a nice image of the @Foglebird account displaying a visual topography of Western US. He computed the percentiles of elevation distribution for intervals of 1° of Latidude.  
 <p align="center">
 <img src="/assets/images/WS.JPG" alt=WS width="450">
 <p>
-I gave it a try how to replicate it with R.
+I gave it a try to replicate it with R.
 
 ### The code
 ```r
@@ -38,6 +38,7 @@ get_quantile_profile <- function(r, lat, res, probs=c(0.25,0.5,0.75)) {
 ```
 
 With library geodata it is possible to load elevation data.
+
 ```r
 ita <- elevation_30s(country="ITA", mask=TRUE)
 #elevation_30s is a hole filled CGIAR-SRTM with 90m resolution (a reasonable resolution/extent compromise)
@@ -48,6 +49,7 @@ ita <- elevation_30s(country="ITA", mask=TRUE)
 <p>
 
 A for cycle is nice to plot each latitude line individually.
+
 ```r
 latspan <- 0.5 #latitude span
 scale   <- 0.0002   # manual z vertical scale elevation 
