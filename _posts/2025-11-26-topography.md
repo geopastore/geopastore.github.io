@@ -66,6 +66,8 @@ for (lat in seq(round(ymin(ex),0), round(ymax(ex),0), latspan)) {
 ```
 
 ### Result
-<img src="/assets/images/rect2291_2.png" alt=ita width="500">
+<img src="/assets/images/rect2291_2.png" alt=ita width="700">
 
 Elevation transects of Italy. Lines represent the 25th, 50th, and 75th percentiles of the elevation distribution across 0.5° latitude bands.
+
+Explore topographical features. Can you spot the Western Alps or ***Giudicarie Line***, Po Plain, ***Belluno sincline***, Appennine front, ***Gran Sasso peak***, Gennargentu massif, ***Gargano massif***, Strait of Messina, ***Aeolian Islands***, Etna volcano, and Pantelleria Island?
