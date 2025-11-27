@@ -19,7 +19,7 @@ list_title: ' '
          style="width: 100%; height: auto;">
 
     <p style="margin-top: 10px;">
-      This is my personal page.<br>
+      Hi I'm Guido Pastore, this is my personal page.<br>
       I would like to use it to share some ideas.
     </p>
 
