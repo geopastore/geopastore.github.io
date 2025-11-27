@@ -5,7 +5,8 @@ date: 2025-11-26 10:00:00 -0000
 ---
 
 ###### The idea
-One day, wandering around the forest of twitter, I found a nice image of the accoung @Foglebird displaying a visual topography of Western US. He computed the percentiles of elevation dristribution for intervals of 1° of Latidude. 
+One day, wandering around the forest of twitter, I found a nice image of the accoung @Foglebird displaying a visual topography of Western US. He computed the percentiles of elevation dristribution for intervals of 1° of Latidude.  
+
 I gave it a try how to replicate it with R.
 
 ```r
