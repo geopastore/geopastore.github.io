@@ -8,7 +8,7 @@ list_title: ' '
 
   <img src="/assets/images/95483300-mds2022f-15668.JPG"
        alt="My photo"
-       style="max-width: 100px; height: auto; border-radius: 8px;">
+       style="max-width: 150px; height: auto; border-radius: 8px;">
 
   <div>
     <p>
