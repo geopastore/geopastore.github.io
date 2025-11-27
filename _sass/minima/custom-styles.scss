@@ -1,2 +1,15 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+.header-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3); /* optional dark filter */
+}
