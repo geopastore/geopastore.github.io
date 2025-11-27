@@ -14,3 +14,30 @@ position: relative;
 width: 35px;
 top: 5px;
 }
+
+/* Header image container */
+.header-image-container {
+  width: 100%;
+  height: 250px;   /* change this to the height you want */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Header image */
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crops image to fit the header */
+  display: block;
+}
+
+/* Text overlay on top of the image */
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
