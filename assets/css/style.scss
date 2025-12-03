@@ -42,30 +42,21 @@ top: 5px;
   align-items: center;
 }
 
-.profile-box {
-  position: fixed;       /* position relative to viewport */
-  top: 300px;            /* adjust vertical offset from top */
-  right: 50px;           /* distance from right edge */
-  width: 200px;
-  text-align: center;
-  z-index: 1000;
-
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  p {
-    margin-top: 10px;
-  }
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
-/* Mobile: move below posts */
-@media screen and (max-width: 768px) {
-  .profile-box {
-    position: static;       /* normal flow */
-    margin: 20px auto;      /* centered */
-    width: 80%;             /* almost full width */
-  }
+/* On smaller screens */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
