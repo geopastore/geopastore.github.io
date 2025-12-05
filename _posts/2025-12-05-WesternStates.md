@@ -27,7 +27,7 @@ date: 2025-12-05 10:00:00 -0000
 
   <h2>Method</h2>
   <p>
-    To calculate the probability of entry associated with each number of tickets each year I used a Monte Carlo simulation method. This approximates the effective results by running many simulated draws. For a detailed explanation consult Ryan Witko analysis (<a href="https://www.wser.org/wp-content/uploads/stats/WesternStatesLotteryAnalysis.pdf" target="_blank">Western States Monte Carlo</a>).
+    To calculate the probability of entry associated with each number of tickets every year I used a Monte Carlo simulation method. This approximates the effective results by running many simulated draws. For a detailed explanation consult Ryan Witko analysis (<a href="https://www.wser.org/wp-content/uploads/stats/WesternStatesLotteryAnalysis.pdf" target="_blank">Western States Monte Carlo</a>).
   </p>
 
   <p>
