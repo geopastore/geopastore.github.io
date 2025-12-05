@@ -1,7 +1,10 @@
+---
+layout: post
+title: "Western States Lottery numbers"
+date: 2025-12-06 10:00:00 -0000
+---
+
 <body>
-
-  <h1>Western States Lottery numbers</h1>
-
   <p class="lead">
     Western States 100 miles is genuinely the dream race of many ultrarunners (beginners or experienced). While the exploitation of our dear Mont Blanc tour seems to not have limits (in terms of profit made by company owners), WS is under the strict rule of <strong>369</strong>: U.S. Forest Service limits the number of runners to 369. This number is fixed no matter how much ultrarunning and WS became popular and the desire of us all. This led to the creation of the infamous <em> Western States Lottery</em>. It had the initial purpose of awarding consistency in entry the lottery each year, by competing a long race, ensuring fit group at the starting line.
   </p>
