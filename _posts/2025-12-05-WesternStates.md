@@ -82,6 +82,6 @@ Even though the distribution of tickets shifts every year toward higher-ticket h
 
   <h2>Bonus</h2>
   <p>
-    There is an Italian guy (if you know, you know) attempting to participate three times in a row (without shortcuts). He obviously has the same probability to get in with one ticket as everyone else (1 in ~287). But statistically, the event of participating in 2024 with 4 tickets, 2025 with 1 ticket and (hopefully) 2026 with 1 ticket is ~0.00004% or 1 in 250,000,000. <strong>Western States lottery — let us dream!</strong>
+    There is an Italian guy (if you know, you know) attempting to participate three times in a row (without shortcuts). He obviously has the same probability to get in with one ticket as everyone else (1 in ~287). But, the statistical event of participating in 2024 with 4 tickets, 2025 with 1 ticket and (hopefully) 2026 with 1 ticket, is ~0.00004% or 1 in 250,000,000. <strong>Western States lottery — let us dream!</strong>
   </p>
 
