@@ -37,7 +37,7 @@
   </p>
 
   <figure>
-    <img src="_assets_images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" />
+    <img src="/assets/images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" />
     <figcaption>Figure 1 — Overall summary of Western States lottery probabilities and trends.</figcaption>
   </figure>
 
@@ -46,7 +46,7 @@
   </p>
 
   <figure>
-    <img src="_assets_images/Entrants.JPG" alt="Plot of entrants per year" />
+    <img src="/assets/images/Entrants.JPG" alt="Plot of entrants per year" />
     <figcaption>Figure 2 — Number of entrants by year.</figcaption>
   </figure>
 
@@ -55,7 +55,7 @@
   </p>
 
   <figure>
-    <img src="_assets_images/Tickets.JPG" alt="Ticket distribution across entrants and years" />
+    <img src="/assets/images/Tickets.JPG" alt="Ticket distribution across entrants and years" />
     <figcaption>Figure 3 — Ticket counts distribution across entrants and years.</figcaption>
   </figure>
 
@@ -64,7 +64,7 @@
   </p>
 
   <figure>
-    <img src="_assets_images/Tdist.JPG" alt="Ticket distribution and resulting probabilities over time" />
+    <img src="/assets/images/Tdist.JPG" alt="Ticket distribution and resulting probabilities over time" />
     <figcaption>Figure 4 — Ticket distribution and resulting probabilities over time.</figcaption>
   </figure>
 
