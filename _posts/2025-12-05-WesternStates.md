@@ -60,7 +60,7 @@ date: 2025-12-05 10:00:00 -0000
   <p> 
 
   <p>
-    This makes the effect of ticket-number increases (which are themselves exponential) particularly dramatic. It has contributed to making the entry process longer and more improbable. Between 2016 and 2019, the ballot was positive for everyone with 64 tickets (over 7 years). After that, only 2 years were needed to create the 256-ticket category, and just one year to establish the 512-ticket category (with 5 entries this year).
+    This makes the effect of ticket-number increases (which are themselves exponential) particularly dramatic. It has contributed to making the entry process longer and more improbable. Between 2016 and 2019, the ballot was positive for everyone with 64 tickets (over 7 years). After that, only 2 years were needed to create the 256-ticket category, and just one year to establish the 512-ticket category (with 5 entries this year). Since after Covid-19 the lottery has clearly been overloaded.  
   </p>
 
   <p align="center"> 
