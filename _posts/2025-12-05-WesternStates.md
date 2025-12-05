@@ -73,7 +73,7 @@ Even though the distribution of tickets shifts every year toward higher-ticket h
 
   <h2>Conclusions (of an old grumbling man)</h2>
   <p>
-    My consideration (and probably not many would agree) is that the popularity ultrarunning is receiving is beneficial for the sport in the long term, but we have to take care to avoid the “Tour de France effect.” In the professional cycling calendar, the Tour de France has gained media coverage and exposure unequal to any other event. This is ultimately not good for the sport and not good for the competition either. We all want the chance to get to the finish line in Auburn, but social media exposure and genral hype are pressing us all against the magic “<strong>369</strong>” number dam. We should probably find our own WS among all the beautiful races (and personal projects). We just need a good pair of socks and shoes and to get out of the door.
+    My consideration (and probably not many would agree) is that the popularity ultrarunning is receiving is beneficial for the sport in the long term, but we have to take care to avoid the “Tour de France effect”. In the professional cycling calendar, the Tour de France has gained media coverage and exposure unequal to any other event. This is ultimately not good for the sport and not good for the competition either. We all want the chance to get to the finish line in Auburn, but social media exposure and genral hype are pressing us all against the magic “<strong>369</strong>” number dam. We should probably find our own WS among all the beautiful races (and personal projects). We just need a good pair of socks and shoes and to get out of the door.
   </p>
   
   <p align="center"> 
