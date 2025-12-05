@@ -3,14 +3,13 @@
   <h1>Western States Lottery numbers</h1>
 
   <p class="lead">
-    Western States 100 miles is genuinely the dream race of many ultrarunners (beginners or experienced). While the exploitation of our dear Mont Blanc tour seems to not have limits (in terms of profit made by company owners), WS is under the strict rule of ‘369’: U.S. Forest Service limits the number of runners to 369. This number is fixed no matter how much ultrarunning and WS became popular and the desire of us all. This led to the creation of the infamous Western States Lottery. It had the initial purpose of awarding consistency in entry the lottery each year, by competing a long race, ensuring fit group at the starting line.
+    Western States 100 miles is genuinely the dream race of many ultrarunners (beginners or experienced). While the exploitation of our dear Mont Blanc tour seems to not have limits (in terms of profit made by company owners), WS is under the strict rule of <strong>369</strong>: U.S. Forest Service limits the number of runners to 369. This number is fixed no matter how much ultrarunning and WS became popular and the desire of us all. This led to the creation of the infamous <em> Western States Lottery</em>. It had the initial purpose of awarding consistency in entry the lottery each year, by competing a long race, ensuring fit group at the starting line.
   </p>
 
   <h2>How the lottery works</h2>
   <p>
-    Every lottery applicant will receive <code>2^(n-1)</code> tickets in the hat for each failure to gain entry where <em>n</em> is the number of years applied. As an example: if a runner applies and fails to gain entry two times, they will have four tickets in the hat when entered in the lottery the third year (<code>2^2</code>), eight in the fourth year (<code>2^3</code>), 16 in the fifth (<code>2^4</code>), 32 in the sixth (<code>2^5</code>), etc.
+    Every lottery applicant will receive  <code>2^(n-1)</code> tickets in the hat for each failure to gain entry where <code>n</code> is the number of years applied. As an example: If a runner applies and fails to gain entry two times, they will have four tickets in the hat when entered in the lottery the third year (<code>2^2</code>), eight in fourth year  (<code>2^3</code>), 16 in fifth  (<code>2^4</code>), 32 in sixth (<code>2^5</code>), etc. [form the lottery website]
   </p>
-  <p class="small">[from the lottery website]</p>
 
   <h2>Motivation</h2>
   <p>
@@ -24,7 +23,7 @@
 
   <h2>Method</h2>
   <p>
-    To calculate the probability of entry associated with each number of tickets each year I used a Monte Carlo simulation method. This approximates the effective results by running many simulated draws. For a detailed explanation consult the Western States analysis (for example the lottery analysis PDF on the WSER site).
+    To calculate the probability of entry associated with each number of tickets each year I used a Monte Carlo simulation method. This approximates the effective results by running many simulated draws. For a detailed explanation consult Ryan Witko analysis (<a href="https://www.wser.org/wp-content/uploads/stats/WesternStatesLotteryAnalysis.pdf" target="_blank">Western States Monte Carlo</a>).
   </p>
 
   <p>
@@ -71,7 +70,7 @@
 
   <h2>Conclusions (of an old grumbling man)</h2>
   <p>
-    My consideration (and probably I am alone in this) is that the popularity ultrarunning is receiving is beneficial for the sport in the long term, but we should avoid a “Tour de France effect” — excessive media focus and hype around a single event. Social media exposure and WS hype are pressing us all against the magic '369' limit. We should probably find other great events and personal projects besides aiming only at Western States — all we need is a good pair of socks and shoes and to get out the door.
+    My consideration (and probably I am alone in this) is that the popularity ultrarunning is receiving is beneficial for the sport in the long term, but we have to take care to avoid the “Tour de France effect.” In the professional cycling calendar, the Tour de France has gained media coverage and exposure unequal to any other event. This is ultimately not good for the sport (everything happening in those three weeks receives disproportionate resonance) and not good for the competition either (a 10th place overall at the Tour is too valuable to risk with an attack). We all want the chance to get to the finish line in Auburn, but social media exposure and WS hype are pressing us all against the magic “<strong>369</strong> ” number dam. We should probably find our own WS among all the beautiful races (and personal projects); we just need a good pair of socks and shoes and to get out of the door.
   </p>
   
   <p align="center"> 
@@ -83,7 +82,6 @@
     There is an Italian guy (whoever needs to know knows) attempting to participate three times in a row (without shortcuts). He obviously has the same probability to get in with one ticket as everyone else (1 in ~287). But statistically, the event of participating in 2024 with 4 tickets, 2025 with 1 ticket and (hopefully) 2026 with 1 ticket is ~0.00004% or 1 in 250,000,000. Western States lottery — let us dream!
   </p>
 
-  <p class="small">If you want this as a Jekyll-compatible Markdown post instead, or prefer different image paths (for example `assets/images/Overall.JPG`), tell me and I’ll adapt it.</p>
 
 </body>
 </html>
