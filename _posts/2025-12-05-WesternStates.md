@@ -52,7 +52,7 @@ date: 2025-12-05 10:00:00 -0000
   <p> 
     
   <p>
-  The number of entrants has been increasing since 2011, with a dip in 2015 (for reasons unknown   to me) and another in 2022 (likely due to COVID-19). The year I first enrolled, the number of   new submissions reached a maximum of 2200, while this year, we almost reached 1500.  Unfortunately, the rate of increase is not constant, resulting in an overall quadratic growth, proportional to the square of the entrants. 
+  The number of entrants has been increasing since 2011, with a dip in 2015 (for reasons unknown   to me) and another in 2022 (likely due to COVID-19). The year I first enrolled, the number of exceeding new submissions reached a maximum of 2200, while this year, we almost reached 1500.  Unfortunately, the rate of increase is not constant, resulting in an overall quadratic growth, proportional to the square of the entrants. 
   </p>
 
   <p align="center"> 
