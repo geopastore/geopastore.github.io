@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Western States Lottery numbers"
-date: 2025-12-06 10:00:00 -0000
+date: 2025-12-05 10:00:00 -0000
 ---
 
 <body>
