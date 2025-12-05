@@ -7,7 +7,7 @@ date: 2025-12-05 10:00:00 -0000
 
 <body>
   <p class="lead">
-    Western States 100 miles is truly the dream race for many ultrarunners, whether beginners or experienced. While the exploitation of our beloved Mont Blanc tour seems limitless (in terms of profits for company owners), Western States (WS) is strictly governed by the “<strong>369 rule</strong>”: the U.S. Forest Service limits the number of runners to 369. This number is fixed, no matter how popular ultrarunning and WS have become or how strong our desire to participate is. This limitation led to the creation of the infamous Western States Lottery, which was initially designed to reward consistency in applying each year. By regularly competing in long races, applicants ensure a fit group at the starting line.
+    Western States 100 miles is truly the dream race for many ultrarunners, whether beginners or experienced. While the exploitation of our beloved Mont Blanc tour seems limitless (in terms of profits for company owners), Western States (WS) is strictly governed by the “<strong>369 rule</strong>”: the U.S. Forest Service limits the number of runners to 369. This number is fixed, no matter how popular ultrarunning and WS have become or how strong our desire to participate is. This limitation led to the creation of the infamous Western States Lottery, which was initially designed to reward consistency in applying each year. By regularly competing in long races, applicants ensure to be part of a fit group at the starting line.
   </p>
 
   <h2>How the lottery works</h2>
