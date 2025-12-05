@@ -12,7 +12,7 @@ date: 2025-12-05 10:00:00 -0000
 
   <h2>How the lottery works</h2>
   <p>
-    Every lottery applicant will receive  <code>2^(n-1)</code> tickets in the hat for each failure to gain entry where <code>n</code> is the number of years applied. As an example: If a runner applies and fails to gain entry two times, they will have four tickets in the hat when entered in the lottery the third year (<code>2^2</code>), eight in fourth year  (<code>2^3</code>), 16 in fifth  (<code>2^4</code>), 32 in sixth (<code>2^5</code>), etc. [form the lottery website]
+    Every lottery applicant will receive  <code>2^(n-1)</code> tickets in the hat for each failure to gain entry, where <code>n</code> is the number of years applied. As an example: If a runner applies and fails to gain entry two times, they will have four tickets in the hat when entered in the lottery the third year (<code>2^2</code>), eight in fourth year  (<code>2^3</code>), 16 in fifth  (<code>2^4</code>), 32 in sixth (<code>2^5</code>), etc. [form the lottery website]
   </p>
 
   <h2>Motivation</h2>
