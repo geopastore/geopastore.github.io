@@ -39,25 +39,20 @@ date: 2025-12-05 10:00:00 -0000
   </div>
 
   <h2>Results</h2>
-
+  <p align="center">
+    <img src="/assets/images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" width="600"/>
+  <p> 
+    
   <p>
     The table shows the percent probability to be extracted each year, with the equivalent tickets. The numbers are demoralising for new entrants: since 2023 they have less than 1% chance of being extracted. Probabilities are not particularly in my favour with 4 tickets either — I essentially go from about 0.6% to 1.4% in 3 years. The probability growth pattern (more than doubling every 3 years) is similar, but ten years ago I would have gone from ~6% to ~15% in the same span.
   </p>
   
-  <p align="center">
-    <img src="/assets/images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" width="600"/>
- <p> 
-   
-  <p>
-    The rate of entrants has been increasing since 2011, with a dip in 2022 (likely a Covid-19 effect) and an unexplained dip in 2015. The overall increase (average +858 people per year) appears roughly linear, while the entrant growth actually produces an exponential-like effect on competition.
-  </p>
-
   <p align="center"> 
     <img src="/assets/images/Entrants.JPG" alt="Plot of entrants per year" width="600"/>
   <p> 
-
+    
   <p>
-    This makes the effect of ticket-number increases (which are themselves exponential) particularly dramatic.
+    The rate of entrants has been increasing since 2011, with a dip in 2022 (likely a Covid-19 effect) and an unexplained dip in 2015. The overall increase (average +858 people per year) appears roughly linear, while the entrant growth actually produces an exponential-like effect on competition.
   </p>
 
   <p align="center"> 
@@ -65,12 +60,16 @@ date: 2025-12-05 10:00:00 -0000
   <p> 
 
   <p>
-    Even though the distribution of tickets shifts every year toward higher-ticket holders, their chances have drastically dropped. For example, ten years ago a 5-year lottery subscriber would have had roughly a 50% chance to get in; now that chance is about 5%. You were basically sure to be selected after 7 years; with the current trend new subscribers will be statistically certain to get in only after more than 10 years.
+    This makes the effect of ticket-number increases (which are themselves exponential) particularly dramatic.
   </p>
 
   <p align="center"> 
     <img src="/assets/images/Tdist.JPG" alt="Ticket distribution and resulting probabilities over time" width="600"/>
   <p> 
+
+  <p>
+    Even though the distribution of tickets shifts every year toward higher-ticket holders, their chances have drastically dropped. For example, ten years ago a 5-year lottery subscriber would have had roughly a 50% chance to get in; now that chance is about 5%. You were basically sure to be selected after 7 years; with the current trend new subscribers will be statistically certain to get in only after more than 10 years.
+  </p>
 
   <h2>Conclusions (of an old grumbling man)</h2>
   <p>
