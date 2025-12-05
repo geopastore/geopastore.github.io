@@ -44,7 +44,7 @@ date: 2025-12-05 10:00:00 -0000
   <p> 
     
   <p>
-    The table shows the percent probability to be extracted each year, with the equivalent tickets. The numbers are demoralising for new entrants: since 2023 they have less than 1% chance of being extracted. Probabilities are not particularly in my favour with 4 tickets either (me) — I essentially go from about 0.6% to 1.4% in 3 years. The probability growth pattern (more than doubling every 3 years) is similar, but ten years ago I would have gone from 6% to 15% in the same span.
+    The table shows the percent probability to be extracted each year, with the equivalent tickets. The numbers are demoralising for new entrants: since 2023 they have less than 1% chance of being extracted. Probabilities are not particularly in my favour with 4 tickets either — I essentially go from about 0.6% to 1.4% in 3 years. The probability growth pattern (more than doubling every 3 years) is similar, but ten years ago I would have gone from 6% to 15% in the same span.
   </p>
   
   <p align="center"> 
