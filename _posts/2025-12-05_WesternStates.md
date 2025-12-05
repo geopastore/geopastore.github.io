@@ -1,31 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Western States Lottery numbers</title>
-  <style>
-    /* Simple, clean styling suitable for a GitHub Pages post */
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: 36px auto;
-      padding: 0 18px;
-      color: #111;
-      background: #fff;
-    }
-    h1 { font-size: 2rem; margin-bottom: 6px; }
-    h2 { font-size: 1.25rem; margin-top: 28px; }
-    p { margin: 0.9rem 0; }
-    figure { margin: 1.25rem 0; text-align: center; }
-    figure img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
-    figcaption { font-size: 0.95rem; color: #444; margin-top: 0.5rem; }
-    .small { font-size: 0.95rem; color: #666; }
-    .lead { font-size: 1.05rem; }
-    .note { font-size: 0.9rem; color: #555; background:#f9f9f9; border-left:4px solid #ddd; padding:10px 14px; border-radius:4px; }
-  </style>
-</head>
 <body>
 
   <h1>Western States Lottery numbers</h1>
