@@ -40,7 +40,7 @@ date: 2025-12-05 10:00:00 -0000
 
   <h2>Results</h2>
   <p align="center">
-    <img src="/assets/images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" width="600"/>
+    <img src="/assets/images/Overall.JPG" alt="Overall summary figure showing probabilities and trends" width="700"/>
   <p> 
     
   <p>
