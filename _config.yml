@@ -5,6 +5,7 @@ sass:
   sass_dir: assets/css
 show_excerpts: true
 excerpt_separator: <!--more-->
+
 plugins:
   - jekyll-sitemap
-  gem "jekyll-sitemap"
+
