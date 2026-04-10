@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-image-container">
+      <img src="{{ '/assets/images/Antelope2.jpg' | relative_url }}" class="header-image" alt="Header">
+    </div>
+    <div class="header-overlay">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+      </a>
+      <nav class="site-nav">
+        {% for page in site.pages %}
+          {% if page.title %}
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>

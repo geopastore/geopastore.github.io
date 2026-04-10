@@ -1,11 +1,13 @@
 title: Geopastore
 description: 
-theme: minima
 sass:
   sass_dir: assets/css
 show_excerpts: true
 excerpt_separator: <!--more-->
 
-plugins:
-  - jekyll-sitemap
+url: "https://geopastore.github.io"
+baseurl: ""
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
