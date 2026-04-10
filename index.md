@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: page
 title:
-list_title: ' '
 ---
 
 <div class="sidenav">
