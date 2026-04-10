@@ -2,6 +2,7 @@
 layout: post
 title: "Western States Lottery numbers"
 date: 2025-12-05 10:00:00 -0000
+image: /assets/images/Buckled.jpg
 ---
 *Tomorrow, the 2026 Western States Lottery will select the runners who will start at Olympic Valley. But what are the odds of getting in, and how have they changed over the past years?*<!--more-->
 
