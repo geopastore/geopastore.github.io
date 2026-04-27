@@ -7,22 +7,4 @@ image: /assets/images/WS.JPG
 *insert*<!--more-->
 
 ### The idea
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My 3D Model</title>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
-  <style>
-    model-viewer { width: 100%; height: 100vh; }
-  </style>
-</head>
-<body>
-  <model-viewer
-    src="models/model.glb"
-    alt="My 3D model"
-    auto-rotate
-    camera-controls
-    shadow-intensity="1">
-  </model-viewer>
-</body>
-</html>
+<iframe src="/3d-flute.html" width="100%" height="500px" frameborder="0"></iframe>
