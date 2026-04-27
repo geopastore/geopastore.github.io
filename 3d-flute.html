@@ -12,7 +12,9 @@ layout: null
   </style>
 </head>
 <body>
+
   <model-viewer
+    id="viewer"
     src="/models/flute1/model.glb"
     alt="3D Flute Casts"
     auto-rotate
@@ -27,21 +29,46 @@ layout: null
   </model-viewer>
 
   <script>
-  const viewer = document.getElementById('viewer');
+    const viewer = document.getElementById('viewer');
 
-  viewer.addEventListener('wheel', (e) => {
-    e.preventDefault();
+    // --- ZOOM (scroll wheel) ---
+    viewer.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const orbit = viewer.getCameraOrbit();
+      const sensitivity = 0.01; // adjust: 0.005 = slow, 0.02 = fast
+      const newRadius = Math.max(0.5, Math.min(5, orbit.radius + e.deltaY * sensitivity));
+      viewer.cameraOrbit = `${orbit.theta}rad ${orbit.phi}rad ${newRadius}m`;
+    }, { passive: false });
 
-    // Get current orbit
-    const orbit = viewer.getCameraOrbit();
-    const sensitivity = 0.01; // lower = slower zoom, try 0.005–0.02
+    // --- PAN (right-click or middle-click drag) ---
+    let isPanning = false;
+    let lastX, lastY;
 
-    // Adjust radius (zoom)
-    const newRadius = orbit.radius + e.deltaY * sensitivity;
+    viewer.addEventListener('mousedown', (e) => {
+      if (e.button === 1 || e.button === 2) {
+        isPanning = true;
+        lastX = e.clientX;
+        lastY = e.clientY;
+        e.preventDefault();
+      }
+    });
 
-    viewer.cameraOrbit = `${orbit.theta}rad ${orbit.phi}rad ${newRadius}m`;
-  }, { passive: false });
-</script>
+    viewer.addEventListener('mousemove', (e) => {
+      if (!isPanning) return;
+      const deltaX = (e.clientX - lastX) * 0.001; // adjust pan sensitivity
+      const deltaY = (e.clientY - lastY) * 0.001;
+      const target = viewer.getCameraTarget();
+      viewer.cameraTarget = `${target.x - deltaX}m ${target.y + deltaY}m ${target.z}m`;
+      lastX = e.clientX;
+      lastY = e.clientY;
+    });
+
+    viewer.addEventListener('mouseup', () => isPanning = false);
+    viewer.addEventListener('mouseleave', () => isPanning = false);
+
+    // Prevent right-click context menu
+    viewer.addEventListener('contextmenu', (e) => e.preventDefault());
+  </script>
 
 </body>
 </html>
