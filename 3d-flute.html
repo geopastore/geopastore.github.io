@@ -19,8 +19,8 @@ layout: null
     alt="3D Flute Casts"
     camera-controls
     camera-orbit="0deg 75deg 2m"
-    min-camera-orbit="auto -180deg 0.5m"
-    max-camera-orbit="auto 180deg 5m"
+    min-camera-orbit="auto -360deg 0.5m"
+    max-camera-orbit="auto 360deg 5m"
     field-of-view="10deg"
     exposure="0.35"
     shadow-intensity="0.2"
@@ -36,16 +36,26 @@ layout: null
       const orbit = viewer.getCameraOrbit();
       const sensitivity = 0.01;
       const newRadius = Math.max(0.5, Math.min(5, orbit.radius + e.deltaY * sensitivity));
-      // Preserve theta and phi exactly, only change radius
       viewer.cameraOrbit = `${orbit.theta}rad ${orbit.phi}rad ${newRadius}m`;
     }, { passive: false });
 
-    // --- PAN (right-click or middle-click drag) ---
+    // --- PAN (right-click drag) ---
+    // --- ROTATE freely (left-click drag) via model orientation ---
+    let isRotating = false;
     let isPanning = false;
     let lastX, lastY;
+    let rotX = 0; // tilt (X-Z flip)
+    let rotY = 0; // spin (horizontal)
 
     viewer.addEventListener('mousedown', (e) => {
-      if (e.button === 1 || e.button === 2) {
+      if (e.button === 0) {
+        // Left click = free rotation via model orientation
+        isRotating = true;
+        lastX = e.clientX;
+        lastY = e.clientY;
+        e.preventDefault();
+      } else if (e.button === 1 || e.button === 2) {
+        // Middle/right click = pan
         isPanning = true;
         lastX = e.clientX;
         lastY = e.clientY;
@@ -54,17 +64,38 @@ layout: null
     });
 
     viewer.addEventListener('mousemove', (e) => {
-      if (!isPanning) return;
-      const deltaX = (e.clientX - lastX) * 0.001;
-      const deltaY = (e.clientY - lastY) * 0.001;
-      const target = viewer.getCameraTarget();
-      viewer.cameraTarget = `${target.x - deltaX}m ${target.y + deltaY}m ${target.z}m`;
-      lastX = e.clientX;
-      lastY = e.clientY;
+      if (isRotating) {
+        const deltaX = e.clientX - lastX;
+        const deltaY = e.clientY - lastY;
+
+        rotY += deltaX * 0.5; // horizontal spin
+        rotX += deltaY * 0.5; // vertical flip
+
+        // Apply rotation to the model itself
+        viewer.orientation = `${rotX}deg ${rotY}deg 0deg`;
+
+        lastX = e.clientX;
+        lastY = e.clientY;
+      }
+
+      if (isPanning) {
+        const deltaX = (e.clientX - lastX) * 0.001;
+        const deltaY = (e.clientY - lastY) * 0.001;
+        const target = viewer.getCameraTarget();
+        viewer.cameraTarget = `${target.x - deltaX}m ${target.y + deltaY}m ${target.z}m`;
+        lastX = e.clientX;
+        lastY = e.clientY;
+      }
     });
 
-    viewer.addEventListener('mouseup', () => isPanning = false);
-    viewer.addEventListener('mouseleave', () => isPanning = false);
+    viewer.addEventListener('mouseup', () => {
+      isRotating = false;
+      isPanning = false;
+    });
+    viewer.addEventListener('mouseleave', () => {
+      isRotating = false;
+      isPanning = false;
+    });
 
     viewer.addEventListener('contextmenu', (e) => e.preventDefault());
   </script>
