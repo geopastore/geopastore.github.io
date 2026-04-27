@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Flute Casts</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; background: #111; }
+    model-viewer { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <model-viewer
+    src="/models/flute2/model.glb"
+    alt="3D Flute Casts"
+    auto-rotate
+    camera-controls
+    camera-orbit="0deg 75deg 2m"
+    min-camera-orbit="auto auto 0.1m"
+    max-camera-orbit="auto auto 10m"
+    exposure="0.2"
+    shadow-intensity="0.2"
+    environment-image="neutral">
+  </model-viewer>
+</body>
+</html>
