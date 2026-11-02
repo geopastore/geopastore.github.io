@@ -8,7 +8,7 @@ image: /assets/images/WSER_cougar.png
 
 <body>
   <p class="lead">
-    Last December I looked at <a href="{{ '/2025/12/05/WesternStates.html' | relative_url }}">how the odds of getting into Western States have changed over the years</a>. This time the numbers update themselves: every time WSER refreshes its list of applicants, a small script re-runs the lottery 20,000 times on the current hat and the table below changes accordingly.
+    Last December I looked at <a href="{{ '/2025/12/05/WesternStates.html' | relative_url }}">how the odds of getting into Western States have changed over the years</a>. This year the numbers update themselves: every time WSER refreshes its list of applicants, a small script re-runs the lottery 20,000 times on the current hat and the table below changes accordingly.
   </p>
 
   <p align="center">
