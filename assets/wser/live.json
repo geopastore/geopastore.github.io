@@ -1,0 +1,82 @@
+{
+  "lottery_year": 2027,
+  "source_url": "https://www.wser.org/lottery2027.html",
+  "wser_last_updated": "11-02-2026 2:09:27 AM",
+  "computed_at_utc": "2026-11-02T10:34:43+00:00",
+  "total_entrants": 5234,
+  "total_tickets": 62319,
+  "draw_size": 290,
+  "simulations": 20000,
+  "rows": [
+    {
+      "tickets": 1,
+      "entrants": 1441,
+      "total": 1441,
+      "probability": 0.005868,
+      "expected_selected": 8.46
+    },
+    {
+      "tickets": 2,
+      "entrants": 1245,
+      "total": 2490,
+      "probability": 0.011718,
+      "expected_selected": 14.59
+    },
+    {
+      "tickets": 4,
+      "entrants": 859,
+      "total": 3436,
+      "probability": 0.023176,
+      "expected_selected": 19.91
+    },
+    {
+      "tickets": 8,
+      "entrants": 683,
+      "total": 5464,
+      "probability": 0.045883,
+      "expected_selected": 31.34
+    },
+    {
+      "tickets": 16,
+      "entrants": 441,
+      "total": 7056,
+      "probability": 0.089431,
+      "expected_selected": 39.44
+    },
+    {
+      "tickets": 32,
+      "entrants": 284,
+      "total": 9088,
+      "probability": 0.170971,
+      "expected_selected": 48.56
+    },
+    {
+      "tickets": 64,
+      "entrants": 153,
+      "total": 9792,
+      "probability": 0.312551,
+      "expected_selected": 47.82
+    },
+    {
+      "tickets": 128,
+      "entrants": 82,
+      "total": 10496,
+      "probability": 0.527737,
+      "expected_selected": 43.27
+    },
+    {
+      "tickets": 256,
+      "entrants": 41,
+      "total": 10496,
+      "probability": 0.777218,
+      "expected_selected": 31.87
+    },
+    {
+      "tickets": 512,
+      "entrants": 5,
+      "total": 2560,
+      "probability": 0.9505,
+      "expected_selected": 4.75
+    }
+  ]
+}
