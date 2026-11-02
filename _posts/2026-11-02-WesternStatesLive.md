@@ -12,7 +12,7 @@ image: /assets/images/WSER_cougar.png
   </p>
 
   <p align="center">
-    <img src="{{ '/assets/images/WSER_cougar.png' | relative_url }}" alt="Western States cougar" width="500"/>
+    <img src="{{ '/assets/images/WSER_cougar.png' | relative_url }}" alt="Western States cougar" width="280"/>
   </p>
 
   <div id="wser-live"
