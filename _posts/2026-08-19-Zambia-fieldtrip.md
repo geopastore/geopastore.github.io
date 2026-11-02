@@ -2,7 +2,7 @@
 layout: post
 title: "Travel blog: Fieldwork in Zambia, 2026"
 date: 2026-08-19 10:00:00 -0000
-image: /assets/images/Zambia/Zambia-2.jpg
+image: /assets/images/Zambia/Zambia-2.jpeg
 ---
 *In August 2026 I organised a two-week fieldwork expedition across Zambia, following its rivers from the northern plateau to the Luangwa Valley and the Kafue, on the trail of sediments, climate and hominin migration.*<!--more-->
 
