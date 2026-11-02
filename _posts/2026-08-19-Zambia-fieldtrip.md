@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Travel blog: Fieldwork in Zambia, 2026"
+title: "Fieldwork in Zambia, 2026"
 date: 2026-08-19 10:00:00 -0000
 image: /assets/images/Zambia/Zambia-2.jpeg
 ---
