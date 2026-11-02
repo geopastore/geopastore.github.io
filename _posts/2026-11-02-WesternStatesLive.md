@@ -11,6 +11,10 @@ image: /assets/images/WSER_cougar.png
     Last December I looked at <a href="{{ '/2025/12/05/WesternStates.html' | relative_url }}">how the odds of getting into Western States have changed over the years</a>. This time the numbers update themselves: every time WSER refreshes its list of applicants, a small script re-runs the lottery 20,000 times on the current hat and the table below changes accordingly.
   </p>
 
+  <p align="center">
+    <img src="{{ '/assets/images/WSER_cougar.png' | relative_url }}" alt="Western States cougar" width="500"/>
+  </p>
+
   <div id="wser-live"
        data-json="{{ '/assets/wser/live.json' | relative_url }}"
        data-analogies="{{ '/assets/wser/analogies.csv' | relative_url }}"></div>
