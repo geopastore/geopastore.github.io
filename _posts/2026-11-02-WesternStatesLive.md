@@ -4,7 +4,7 @@ title: "Western States 2027 lottery: live odds"
 date: 2026-11-02 10:00:00 -0000
 image: /assets/images/WSER_cougar.png
 ---
-*Registration for the 2027 Western States Lottery is open until 21 November, and the draw is on 5 December. What are the odds of getting in this year? This page reads the applicant list on wser.org every six hours and recomputes them.*<!--more-->
+*Registration for the 2027 Western States Lottery is open until 21 November, and the draw is on 5 December. What are the odds of getting in this year? This page reads the applicant list on wser.org every two hours and recomputes them.*<!--more-->
 
 <body>
   <p class="lead">
