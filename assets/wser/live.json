@@ -1,10 +1,10 @@
 {
   "lottery_year": 2027,
   "source_url": "https://www.wser.org/lottery2027.html",
-  "wser_last_updated": "11-23-2026 3:58:30 PM",
-  "computed_at_utc": "2026-11-24T04:47:46+00:00",
-  "total_entrants": 11748,
-  "total_tickets": 119889,
+  "wser_last_updated": "11-23-2026 9:16:33 PM",
+  "computed_at_utc": "2026-11-24T17:42:30+00:00",
+  "total_entrants": 11749,
+  "total_tickets": 119891,
   "draw_size": 290,
   "simulations": 20000,
   "rows": [
@@ -12,77 +12,77 @@
       "tickets": 1,
       "entrants": 4293,
       "total": 4293,
-      "probability": 0.00278,
-      "expected_selected": 11.93
+      "probability": 0.002771,
+      "expected_selected": 11.89
     },
     {
       "tickets": 2,
-      "entrants": 2596,
-      "total": 5192,
-      "probability": 0.005502,
-      "expected_selected": 14.28
+      "entrants": 2597,
+      "total": 5194,
+      "probability": 0.005541,
+      "expected_selected": 14.39
     },
     {
       "tickets": 4,
       "entrants": 1719,
       "total": 6876,
-      "probability": 0.011017,
-      "expected_selected": 18.94
+      "probability": 0.011039,
+      "expected_selected": 18.98
     },
     {
       "tickets": 8,
       "entrants": 1283,
       "total": 10264,
-      "probability": 0.021882,
-      "expected_selected": 28.07
+      "probability": 0.021864,
+      "expected_selected": 28.05
     },
     {
       "tickets": 16,
       "entrants": 827,
       "total": 13232,
-      "probability": 0.043317,
-      "expected_selected": 35.82
+      "probability": 0.04328,
+      "expected_selected": 35.79
     },
     {
       "tickets": 32,
       "entrants": 525,
       "total": 16800,
-      "probability": 0.084777,
-      "expected_selected": 44.51
+      "probability": 0.084725,
+      "expected_selected": 44.48
     },
     {
       "tickets": 64,
       "entrants": 268,
       "total": 17152,
-      "probability": 0.162374,
-      "expected_selected": 43.52
+      "probability": 0.162293,
+      "expected_selected": 43.49
     },
     {
       "tickets": 128,
       "entrants": 152,
       "total": 19456,
-      "probability": 0.298649,
-      "expected_selected": 45.39
+      "probability": 0.297998,
+      "expected_selected": 45.3
     },
     {
       "tickets": 256,
       "entrants": 68,
       "total": 17408,
-      "probability": 0.506993,
-      "expected_selected": 34.48
+      "probability": 0.508312,
+      "expected_selected": 34.57
     },
     {
       "tickets": 512,
       "entrants": 16,
       "total": 8192,
-      "probability": 0.757119,
-      "expected_selected": 12.11
+      "probability": 0.757394,
+      "expected_selected": 12.12
     },
     {
       "tickets": 1024,
       "entrants": 1,
       "total": 1024,
-      "probability": 0.93745,
+      "probability": 0.94095,
       "expected_selected": 0.94
     }
   ]
